@@ -27,19 +27,68 @@
 // 5 - Crie um algoritmo que recebe a idade de Carolzita, Murilo e Baêta e imprime quem é a pessoa mais nova no formato:
 // "Pessoa" é a mais nova.
 
-let Carolzita = 75;
-let Murilo = 90;
-let Baêta = 140;
+// let Carolzita = 75;
+// let Murilo = 90;
+// let Baêta = 140;
 
-if (Carolzita < Murilo && Carolzita < Baêta) {
-    console.log('Carolzita', Carolzita, 'é a pessoa mais nova.');
-}
-    else if (Murilo < Carolzita && Murilo < Baêta) {
-        console.log('Murilo', Murilo, 'é a pessoa mais nova.');
-}
-    else if (Baêta < Carolzita && Baêta < Murilo) {
-        console.log('Baêta', Baêta, 'é a pessoa mais nova.');
-}
-    else{
-        console.log('Error');
-}
+// if (Carolzita < Murilo && Carolzita < Baêta) {
+//     console.log('Carolzita', Carolzita, 'é a pessoa mais nova.');
+// }
+//     else if (Murilo < Carolzita && Murilo < Baêta) {
+//         console.log('Murilo', Murilo, 'é a pessoa mais nova.');
+// }
+//     else if (Baêta < Carolzita && Baêta < Murilo) {
+//         console.log('Baêta', Baêta, 'é a pessoa mais nova.');
+// }
+//     else{
+//         console.log('Error');
+// }
+
+// Crie um algoritmo que simula o jogo “pedra, papel e tesoura” levando em consideração que são apenas duas pessoas jogando e imprima o resultado no formato:
+// “Player 1 won” ou “A Ties” ou “Player 2 won”.
+
+// let pedra = 'pedra';
+// let papel = 'papel';
+// let tesoura = 'tesoura';
+
+// let Player1 = 'pedra';
+// let Player2 = 'tesoura';
+
+// if (Player1 == 'pedra' && Player2 == 'tesoura') {
+//     console.log('Player1 won');
+// }
+// else if (Player1 == 'papel' && Player2 == 'tesoura') {
+//     console.log('Player2 won');
+// }
+// else if (Player1 == 'tesoura' && Player2 == 'tesoura') {
+//     console.log('A Ties');
+// }
+// else if (Player2 == 'pedra' && Player1 == 'tesoura') {
+//     console.log('Player2 won');
+// }
+// else if (Player2 == 'papel' && Player1 == 'tesoura') {
+//     console.log('Player1 won');
+// }
+// else if (Player1 == 'papel' && Player2 == 'papel') {
+//     console.log('A Ties');
+// }
+// else if (Player1 == 'pedra' && Player2 == 'pedra') {
+//     console.log('A Ties');
+// }
+// else if (Player1 == 'tesoura' && Player2 == 'papel') {
+//     console.log('Player1 won');
+// }
+// else if (Player1 == 'papel' && Player2 == 'pedra') {
+//     console.log('Player1 won');
+// }
+// else if (Player1 == 'pedra' && Player2 == 'papel') {
+//     console.log('Player2 won');
+// }
+
+// Desenvolva um algoritmo que verifica se a pessoa é maior ou menor de idade. Imprima no console seguindo o exemplo: “A pessoa é maior de idade”.
+// Bônus: Crie a condição utilizando operador ternário.
+
+let pessoa = 'Antonio';
+let idade = 17;
+
+idade >= 18 ? console.log(pessoa, 'é maior de idade') : console.log(pessoa, 'é menor de idade');
